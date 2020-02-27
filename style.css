@@ -1,6 +1,39 @@
 body {
     font-family: 'Signika' ;
+    background-color: white;
 }
 .navbar {
     padding: 0px 50px;
+}
+.b-search-area {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(img/saigon6.jpg);
+    border: 1px solid black;
+    opacity: 1;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b-search-bar {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.custom-select {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.input-group > .input-group-prepend >button {
+    background-color: white;
+    color:grey;
+    outline: none;
 }
