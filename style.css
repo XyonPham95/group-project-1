@@ -4,3 +4,33 @@ body {
 .navbar {
     padding: 0px 50px;
 }
+
+:root {
+    --darkblue: #003399;
+    --lightblue: #3974e9;
+    --gray: rgb(48, 48, 48);
+}
+
+.darkblue {
+    color: var(--darkblue);
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.general-page {
+    margin: 100px 250px 100px 250px;
+}
+
+.nguyen-img {
+    width: 100%;
+}
+
+.nguyen-paragraph {
+    font-family: 'Karla';
+}
