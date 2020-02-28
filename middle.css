@@ -1,0 +1,29 @@
+body {
+    font-family: 'Signika' ;
+    background-color: white;
+}
+.navbar {
+    padding: 0px 15%;
+}
+.aboutus-intro {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(img/nightview.jpg);
+    opacity: 1;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-aboutus {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title-aboutus > h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
