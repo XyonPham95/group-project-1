@@ -67,3 +67,23 @@ body {
 .nguyen-paragraph {
     font-family: 'Karla';
 }
+footer {
+    font-size: 15px;
+}
+a {
+    color: black;
+}
+.footer-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 35%;
+    padding-right: 35%;
+    
+}
+.khanh-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
