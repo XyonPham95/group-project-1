@@ -8,7 +8,6 @@
 .darkblue {
     color: var(--darkblue);
 }
-
 .lightblue {
     color: var(--lightblue);
 }
@@ -202,7 +201,7 @@ a {
 
 
 
-.gg{
+.gg {
     display: flex;
     align-items: center;
 }
