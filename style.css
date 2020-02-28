@@ -5,6 +5,51 @@ body {
 .navbar {
     padding: 0px 50px;
 }
+
+.main-north{
+    text-align: front;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+}
+
+.bao-jumbotron{
+    padding: 0 15%;
+    max-height: 350px !important;
+    min-height: 150px !important;
+    height: fit-content;
+}
+
+.thumb{
+    height: 120px;
+    width: 120px;
+    margin: 2px;
+
+}
+
+.north-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15%;
+
+}
+
+.north{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+
+.north-left .north-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-deck{
+    justify-content: space-around;
+}
+
 .b-search-area {
     height: 420px;
     width: 100%;
