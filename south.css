@@ -27,3 +27,11 @@ body {
     font-size: 50px;
     font-weight: bold;
 }
+/* khanh changed the lines from below, khanhconflict */
+.khanh-container {
+    color: blue;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
