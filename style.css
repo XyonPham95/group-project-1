@@ -79,7 +79,6 @@ body {
     height: 120px;
     width: 120px;
     margin: 2px;
-
 }
 
 .north-text{
@@ -134,8 +133,8 @@ a {
     justify-content: space-around;
     padding-left: 35%;
     padding-right: 35%;
-    
 }
+
 .khanh-icon {
     display: flex;
     justify-content: center;
