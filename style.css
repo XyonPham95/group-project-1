@@ -1,5 +1,6 @@
 body {
     font-family: 'Signika' ;
+    background-color: white;
 }
 .navbar {
     padding: 0px 50px;
@@ -12,7 +13,7 @@ body {
     align-items: ;
 }
 
-.jumbotron{
+.bao-jumbotron{
     padding: 0 15%;
     max-height: 350px !important;
     min-height: 150px !important;
@@ -49,6 +50,85 @@ body {
     justify-content: space-around;
 }
 
+.b-search-area {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(img/saigon6.jpg);
+    border: 1px solid black;
+    opacity: 1;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b-search-bar {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.custom-select {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.input-group > .input-group-prepend >button {
+    background-color: white;
+    color:grey;
+    outline: none;
+}
 
+:root {
+    --darkblue: #003399;
+    --lightblue: #3974e9;
+    --gray: rgb(48, 48, 48);
+}
 
+.darkblue {
+    color: var(--darkblue);
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.general-page {
+    margin: 5% 15% 5% 15%;
+}
+
+.nguyen-img {
+    width: 100%;
+}
+
+.nguyen-paragraph {
+    font-family: 'Karla';
+}
+footer {
+    font-size: 15px;
+}
+a {
+    color: black;
+}
+.footer-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 35%;
+    padding-right: 35%;
+    
+}
+.khanh-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
 
