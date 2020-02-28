@@ -77,8 +77,7 @@ body {
     justify-content: center;
 }
 .input-group > .input-group-prepend >button {
-    background-color: white;
-    color:grey;
+    color: white;
     outline: none;
 }
 
