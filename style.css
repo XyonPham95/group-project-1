@@ -1,3 +1,4 @@
+/* binh */
 body {
     font-family: 'Signika' ;
     background-color: white;
@@ -13,20 +14,18 @@ body {
     align-items: center;
     background-color: black;
     background-image: url(img/saigon6.jpg);
-    border: 1px solid black;
     opacity: 1;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .b-search-bar {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .custom-select {
-    width: 200px;
+    width: 250px;
     height: 50px;
-    border: 1px solid black;
 }
 .title {
     display: flex;
@@ -36,4 +35,51 @@ body {
     background-color: white;
     color:grey;
     outline: none;
+}
+.card-deck {
+    justify-content: space-between;
+}
+
+
+/* Nguyen */
+:root {
+    --darkblue: #003399;
+    --lightblue: #3974e9;
+    --gray: rgb(48, 48, 48);
+}
+
+.darkblue {
+    color: var(--darkblue);
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.general-page {
+    width: 100%;
+}
+.main-content {
+    padding: 0 15%;
+    display: block;
+    padding: 5% 15%;
+
+    border: 1px solid black;
+}
+.nguyen-img {
+    width: 100%;
+}
+
+.nguyen-paragraph {
+    font-family: 'Karla';
+}
+.b-content {
+    display: block;
+}
+.jumpbotron {
+    background-color: white;
 }
