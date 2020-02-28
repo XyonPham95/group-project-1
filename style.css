@@ -25,6 +25,7 @@ body {
     padding: 0px 50px;
 }
 
+
 .b-search-area {
     height: 420px;
     width: 100%;
@@ -67,45 +68,54 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 .bao-jumbotron{
     padding: 0 15%;
     max-height: 350px !important;
     min-height: 150px !important;
     height: fit-content;
 }
-
 .thumb{
     height: 120px;
     width: 120px;
     margin: 2px;
 
 }
-
 .north-text{
     display: flex;
     justify-content: space-around;
     padding: 0 15%;
 }
-
 .north{
     display: flex;
     flex-direction: column !important;
     justify-content: flex-start !important;
 }
-
 .north-left .north-right{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .card-deck{
     justify-content: space-around;
+    font-family: 'Karla';
 }
 
-.card-text {
-    font-family: 'Karla';
+.b-search-area {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(img/saigon6.jpg);
+    opacity: 1;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b-search-bar {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .custom-select {
@@ -119,6 +129,35 @@ body {
 .input-group > .input-group-prepend >button {
     color: white;
     outline: none;
+}
+
+
+:root {
+    --darkblue: #003399;
+    --lightblue: #3974e9;
+    --gray: rgb(48, 48, 48);
+}
+.darkblue {
+    color: var(--darkblue);
+}
+.lightblue {
+    color: var(--lightblue);
+}
+.gray {
+    color: var(--gray);
+}
+.general-page {
+    margin: 5% 15% 5% 15%;
+    background-color: white;
+}
+.nguyen-img {
+    width: 100%;
+}
+.nguyen-paragraph {
+    font-family: 'Karla';
+}
+.b-content {
+    display: block;
 }
 
 footer {
@@ -147,5 +186,4 @@ a {
 .gg{
     display: flex;
     align-items: center;
-   
 }
