@@ -25,7 +25,6 @@ body {
     padding: 0px 50px;
 }
 
-
 .b-search-area {
     height: 420px;
     width: 100%;
@@ -133,9 +132,6 @@ body {
     outline: none;
 }
 
-.card-deck {
-    justify-content: space-between;
-}
 :root {
     --darkblue: #003399;
     --lightblue: #3974e9;
