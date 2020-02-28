@@ -95,9 +95,16 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
-.card-deck{
+.bao-card-deck {
     justify-content: space-around;
     font-family: 'Karla';
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.bao-card {
+    box-shadow: 0em 0em 0.5em 0.1em rgba(56, 56, 56, 0.2);
+    padding: 3px;
 }
 
 .b-search-area {
@@ -196,8 +203,4 @@ a {
 .gg{
     display: flex;
     align-items: center;
-}
-
-.card{
-    padding: 3px;
 }
