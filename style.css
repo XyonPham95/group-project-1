@@ -6,6 +6,51 @@ body {
 .navbar {
     padding: 0px 50px;
 }
+
+.main-north{
+    text-align: front;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bao-jumbotron{
+    padding: 0 15%;
+    max-height: 350px !important;
+    min-height: 150px !important;
+    height: fit-content;
+}
+
+.thumb{
+    height: 120px;
+    width: 120px;
+    margin: 2px;
+
+}
+
+.north-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15%;
+
+}
+
+.north{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+
+.north-left .north-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-deck{
+    justify-content: space-around;
+}
+
 .b-search-area {
     height: 420px;
     width: 100%;
@@ -36,12 +81,11 @@ body {
     color:grey;
     outline: none;
 }
+
 .card-deck {
     justify-content: space-between;
 }
 
-
-/* Nguyen */
 :root {
     --darkblue: #003399;
     --lightblue: #3974e9;
@@ -61,15 +105,10 @@ body {
 }
 
 .general-page {
-    width: 100%;
+    margin: 5% 15% 5% 15%;
+    background-color: white;
 }
-.main-content {
-    padding: 0 15%;
-    display: block;
-    padding: 5% 15%;
 
-    border: 1px solid black;
-}
 .nguyen-img {
     width: 100%;
 }
@@ -80,6 +119,23 @@ body {
 .b-content {
     display: block;
 }
-.jumpbotron {
-    background-color: white;
+
+footer {
+    font-size: 15px;
+}
+a {
+    color: black;
+}
+.footer-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 35%;
+    padding-right: 35%;
+    
+}
+.khanh-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 }
