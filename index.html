@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Site</title>
+    <title>VietVaca</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Signika:700&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Karla"/>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="navbar navbar-light bg-light navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" width="40" height="40" class="d-inline-block align-top" alt=""></a>
 
+<body>
+
+    <!-- navbar Binh start-->
+    <nav class="navbar navbar-light bg-light navbar-expand-lg"> 
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,49 +39,72 @@
                 <button type="button" class="btn btn-secondary btn-md">Sign Up</button>
             </span>
         </div>
-    </nav>
+    </nav> 
+  
     <div class="b-search-area">
         <div class="b-search-bar">
             <div class="title">
-                <h1>Find some thing that you want, Product Owner</h1>
+                <h1>Find Your Dream Viet Vacation</h1>
             </div>
-            <div>
-                <select class="custom-select">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-                <select class="custom-select">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-                <select class="custom-select">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-                <select class="custom-select">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-                <div class="input-group mb-3 mt-3 input-group-100px">
-                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                    <div class="input-group-prepend pl-3">
-                        <button class="btn btn-outline-secondary btn-" type="button" id="button-addon1">Search</button>
+            <div class="card-deck">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <label for="arrive">Arrive</label>
+                    <input type="date" id="arrive" name="arrive" class="input-day">
+                  </div> <!-- Div col 1-->
+                  <div class="col">
+                    <label for="depart">Depart</label>
+                    <input type="date" id="depart" name="depart" class="input-day">
+                  </div> <!-- Div col 2-->
+                  <div class="col">
+                    <label for="daystart">Guest</label>
+                    <select class="custom-select">
+                      <option selected>Number of people</option>
+                      <option value="1">1 Person</option>
+                      <option value="2">2 People</option>
+                      <option value="3">3 People</option>
+                      <option value="3">4 People</option>
+                      <option value="3">5 People</option>
+                      <option value="3">6 People</option>
+                      <option value="3">7 People</option>
+                      <option value="3">8 People</option>
+                      <option value="3">9 People</option>
+                      <option value="3">10 People</option>
+                      <option value="3">11 People</option>
+                      <option value="3">12 People</option>
+                      <option value="3">13 People</option>
+                      <option value="3">14 People</option>
+                      <option value="3">15 People</option>
+                      <option value="3">16 People</option>
+                      <option value="3">17 People</option>
+                    </select>
+                  </div> <!-- Div col 3-->
+                </div> <!-- Div row 1-->
+                <div class="row">
+                  <div class="col-12">
+                    <div class="input-group mb-3 mt-3 input-group-100px">
+                      <input type="text" class="form-control" placeholder="Search Location" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-prepend pl-3">
+                        <button class="btn btn-danger btn-outline-secondary " type="button" id="button-addon1">Search</button>
                       </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    </div>
+                  </div>
+                </div> <!-- Div row 2-->
+              </div> <!-- Div class container-->
+            </div> <!-- Div class card deck-->
+        </div> <!-- Div search bar-->
+    </div>     <!-- Div search area--> 
 
-    <section class="general-page">
-    <div class="jumbotron">
+    <!-- Navbar Binh end-->
+
+
+    <!-- Nguyen content start-->
+
+    <div class="b-content">
+    <section class="general-info">   
+      <div class="jumbotron jumbotron-fluid general-page">
+        <div class="container">
         <h1 class="display-4">Hello, Vietnam!</h1>
         <p class="nguyen-paragraph">From north to south, Vietnam offers scenic Halong Bay, vibrant city tempo in Hanoi, unparalleled leisure in Hoi An, imperial Hue, colonial Ho Chi Minh City and vivid Mekong Delta. From the intoxicating history and culture, stunning natural beauty, enjoyable beach holiday to an interesting fisherman experience, this hottest destination in Southeast Asia just has something for everyone.
         </p>
@@ -104,6 +131,7 @@
           </div>
       </div>
     </section>
+<<<<<<< HEAD
     <!-- khanh Footer -->
   <footer class="page-footer unique-color-dark">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -155,6 +183,254 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+=======
+  </div>
+
+    <!--Nguyen content end-->
+
+  <section class="north"> <!--Bao-->
+    <div class="jumbotron">
+      <div class="main-north">
+        <h1 class="display-4">North Viet Nam</h1>
+        <p class="lead">The fullfil of Viet Nam history and contain a World's Heritage.</p>
+      </div>
+    </div>
+    
+    
+      <div class="card-deck bao-card-deck"> <!--Bao-->
+          <div class="card bao-card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                  <h5 class="card-title">Food and bevarges</h5>
+                  <p class="card-text"> Vietnamese traditional food is the main attraction that make visitor want to visit the North of Viet Nam. </p>
+                  <p class="card-text"><small class="text-muted">Last updated while ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bao-card mb-3 ml-2" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">Vietnamese traditional food is the main attraction that make visitor want to visit the North of Viet Nam.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="card-deck bao-card-deck"> <!--Bao-->
+        <div class="card bao-card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Hanoi’s Old Quarter serves up a sensory overload for the eyes, ears and nose. Wisps
+                  of incense drift out onto streets from ancient temples painted a riot of reds and oranges, while in a
+                  far-flung corner the clang of a blacksmith’s</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bao-card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Hanoi’s Old Quarter serves up a sensory overload for the eyes, ears and nose. Wisps
+                  of incense drift out onto streets from ancient temples painted a riot of reds and oranges, while in a
+                  far-flung corner the clang of a blacksmith’s</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </section>
+
+  <section class="north"> <!--Bao-->
+    <div class="jumbotron region-title title-middle">
+      <div class="main-north">
+        <h1 class="display-4">Middle Viet Nam</h1>
+        <p class="lead">The traditional kingdom among the beachside</p>
+      </div>
+    </div>
+    
+    
+      <div class="card-deck bao-card-deck"> <!--Bao-->
+          <div class="card bao-card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                  <h5 class="card-title">Food and bevarges</h5>
+                  <p class="card-text"> Vietnamese traditional food is the main attraction that make visitor want to visit the North of Viet Nam. </p>
+                  <p class="card-text"><small class="text-muted">Last updated while ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bao-card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">Vietnamese traditional food is the main attraction that make visitor want to visit the North of Viet Nam.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="card-deck bao-card-deck"> <!--Bao-->
+        <div class="card bao-card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Hanoi’s Old Quarter serves up a sensory overload for the eyes, ears and nose. Wisps
+                  of incense drift out onto streets from ancient temples painted a riot of reds and oranges, while in a
+                  far-flung corner the clang of a blacksmith’s</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bao-card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Hanoi’s Old Quarter serves up a sensory overload for the eyes, ears and nose. Wisps
+                  of incense drift out onto streets from ancient temples painted a riot of reds and oranges, while in a
+                  far-flung corner the clang of a blacksmith’s</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </section>
+
+  
+
+  <section class="north"> <!--Bao-->
+    <div class="jumbotron">
+      <div class="main-north">
+        <h1 class="display-4">South Viet Nam</h1>
+        <p class="lead">Modern city contain variaty culture around the worls.</p>
+      </div>
+    </div>
+    
+    
+      <div class="card-deck bao-card-deck"> <!--Bao-->
+          <div class="card bao-card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body ">
+                  <h5 class="card-title">Food and bevarges</h5>
+                  <p class="card-text"> Vietnamese traditional food is the main attraction that make visitor want to visit the North of Viet Nam. </p>
+                  <p class="card-text"><small class="text-muted">Last updated while ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card bao-card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+<<<<<<< HEAD
+                  <h5 class="card-title">Card title</h5>
+=======
+                  <h5 class="card-title"></h5>
+>>>>>>> c437866f6eab2957c5f022b45950861bc9421311
+                  <p class="card-text">Vietnamese traditional food is the main attraction that make visitor want to visit the North of Viet Nam.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="card-deck bao-card-deck"> <!--Bao-->
+        <div class="card bao-card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Hanoi’s Old Quarter serves up a sensory overload for the eyes, ears and nose. Wisps
+                  of incense drift out onto streets from ancient temples painted a riot of reds and oranges, while in a
+                  far-flung corner the clang of a blacksmith’s</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bao-card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="https://media.cooky.vn/recipe/g5/46128/s320x320/recipe46128-cook-step6-636882529136875105.JPG" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Hanoi’s Old Quarter serves up a sensory overload for the eyes, ears and nose. Wisps
+                  of incense drift out onto streets from ancient temples painted a riot of reds and oranges, while in a
+                  far-flung corner the clang of a blacksmith’s</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </section>
+
+
+    <!-- khanh Footer -->
+
+  <footer class="page-footer unique-color-dark">
+    
+>>>>>>> 9ad5998495baeb1208562528b3eadfb5e5ffa881
     <div class="container text-center text-md-left mt-5">
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
@@ -252,10 +528,17 @@
     </div>
   </footer>
   <!-- Khanh footer -->
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 9ad5998495baeb1208562528b3eadfb5e5ffa881
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
 </html>
