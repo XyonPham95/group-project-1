@@ -1,4 +1,22 @@
 /* binh */
+:root {
+    --darkblue: #003399;
+    --lightblue: #3974e9;
+    --gray: rgb(48, 48, 48);
+}
+
+.darkblue {
+    color: var(--darkblue);
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.gray {
+    color: var(--gray);
+}
+
 body {
     font-family: 'Signika' ;
     background-color: white;
@@ -6,6 +24,44 @@ body {
 .navbar {
     padding: 0px 50px;
 }
+
+
+.b-search-area {
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(img/saigon6.jpg);
+    opacity: 1;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b-search-bar {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.b-content {
+    display: block;
+}
+
+.general-page {
+    margin: 5% 15% 5% 15%;
+    background-color: white;
+}
+
+.nguyen-img {
+    width: 100%;
+}
+
+.nguyen-paragraph {
+    font-family: 'Karla';
+}
+
 .main-north{
     text-align: front;
     display: flex;
@@ -28,7 +84,6 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 0 15%;
-
 }
 .north{
     display: flex;
@@ -42,7 +97,9 @@ body {
 }
 .card-deck{
     justify-content: space-around;
+    font-family: 'Karla';
 }
+
 .b-search-area {
     height: 420px;
     width: 100%;
@@ -60,6 +117,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
 }
+
 .custom-select {
     width: 250px;
     height: 50px;
@@ -72,9 +130,8 @@ body {
     color: white;
     outline: none;
 }
-.card-deck {
-    justify-content: space-between;
-}
+
+
 :root {
     --darkblue: #003399;
     --lightblue: #3974e9;
@@ -102,9 +159,11 @@ body {
 .b-content {
     display: block;
 }
+
 footer {
     font-size: 15px;
 }
+
 a {
     color: black;
 }
@@ -120,4 +179,11 @@ a {
     display: flex;
     justify-content: center;
     font-size: 30px;
+}
+
+
+
+.gg{
+    display: flex;
+    align-items: center;
 }
