@@ -22,7 +22,7 @@ body {
     background-color: white;
 }
 .navbar {
-    padding: 0px 50px;
+    padding: 0px 15%;
 }
 
 
@@ -203,4 +203,8 @@ a {
 .gg{
     display: flex;
     align-items: center;
+}
+
+.card{
+    padding: 3px;
 }
