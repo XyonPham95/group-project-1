@@ -67,13 +67,64 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
+.title-bar-south, .title-bar-middle {
+    color: white;
+}
+
+.title-bar-north {
+    color: black;
+}
+
+section a {
+    text-decoration: none;
+}
+
 .bao-jumbotron{
     padding: 0 15%;
     max-height: 350px !important;
     min-height: 150px !important;
     height: fit-content;
 }
+
+.north-jumbotron, .middle-jumbotron, .south-jumbotron {
+    cursor: pointer;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.north-jumbotron {
+    background-image: url(img/north_background1.jpg);
+}
+
+.section-north {
+    background-image: url(img/north_background2.jpg);
+}
+
+.middle-jumbotron {
+    background-image: url(img/middle-background-1.jpg);
+}
+
+.section-middle {
+    background-image: url(img/middle-background-2.jpg);
+}
+
+.south-jumbotron {
+    background-image: url(img/south_background1.jpg);
+}
+
+.section-south {
+    background-image: url(img/south_background2.jpg);
+}
+
+/*finished giving background images to the regions.*/
+
+
 .thumb{
     height: 120px;
     width: 120px;
@@ -89,6 +140,7 @@ body {
     display: flex;
     flex-direction: column !important;
     justify-content: flex-start !important;
+
 }
 .north-left .north-right{
     display: flex;
