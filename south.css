@@ -211,3 +211,25 @@ body {
 
 
 
+.recommend-img-container > img:hover {
+    transform: scale(1.1);
+}
+.recommend-img-container > img {
+    transition: transform 0.35s;
+}
+.recommend-img-container {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    position: relative;
+}
+.recommend-img-container > p {
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    color: white;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding-left: 10px;
+}
