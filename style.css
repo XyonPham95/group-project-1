@@ -94,6 +94,42 @@ section a {
     display: block;
 }
 
+.north-jumbotron:link {
+    text-decoration: none;
+}
+
+.north-jumbotron:hover {
+    text-decoration: none;
+}
+
+.north-jumbotron:visited {
+    text-decoration: none;
+}
+
+.middle-jumbotron:hover {
+    text-decoration: none;
+}
+
+.middle-jumbotron:link {
+    text-decoration: none;
+}
+
+.middle-jumbotro:visited {
+    text-decoration: none;
+}
+
+.south-jumbotron:visited {
+    text-decoration: none;
+}
+
+.south-jumbotron:link {
+    text-decoration: none;
+}
+
+.south-jumbotron:hover {
+    text-decoration: none;
+}
+
 a {
     text-decoration: none;
 }
