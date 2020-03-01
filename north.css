@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    background-image: url(img/nightview.jpg);
+    background-image: url(img/north_background1.jpg);
     opacity: 1;
     color: white;
     background-repeat: no-repeat;
@@ -27,3 +27,31 @@ body {
     font-size: 50px;
     font-weight: bold;
 }
+
+/* Bao Start */
+
+.north{
+    padding: 5% 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-north{
+    text-align: center;
+}
+
+.about-text{
+    text-align: left;
+}
+
+.north-main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-img-top{
+    width: 300px;
+    height: 200px;
+}
+
