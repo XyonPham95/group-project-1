@@ -2,22 +2,36 @@ body {
     font-family: 'Signika' ;
     background-color: white;
 }
+.south {
+    padding: 5% 15%;
+}
 .navbar {
     padding: 0px 15%;
 }
 .aboutus-intro {
-    height: 420px;
+    height: 480px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-    background-image: url(img/hotel.jpg);
+    background-image: url(img/south-background.jpg);
     opacity: 1;
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
 .title-aboutus {
     display: flex;
     justify-content: center;
@@ -34,12 +48,13 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    font-family: 'Karla';
+    font-weight: bold;
 }
 .k-south-about >p {
     display: flex;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    font-family: 'Karla';
 }
 .south-video {
     display: flex;
@@ -207,4 +222,40 @@ body {
     background: rgba(0,0,0,.4);
     width: 100%;
     padding-left: 10px;
+}
+
+
+
+.recommend-img-container > img:hover {
+    transform: scale(1.1);
+}
+.recommend-img-container > img {
+    transition: transform 0.35s;
+}
+.recommend-img-container {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    position: relative;
+}
+.recommend-img-container > p {
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    color: white;
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    padding-left: 10px;
+}
+
+.khanh-recommend-section {
+    height: 550px;
+}
+.khanh-recommend-section > h1 {
+    padding-top: 2%;
+    font-size: 40px;
+    color:black;
+    display: flex;
+    justify-content: center;
 }
