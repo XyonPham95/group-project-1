@@ -265,6 +265,7 @@ label {
     display: block;
 }
 
+
 footer {
     font-size: 15px;
     padding-top: 2%;
@@ -273,8 +274,8 @@ footer {
 }
 
 .khanh-footer-container {
-    margin-left: 15%;
-    margin-right: 15%;
+    display: flex;
+    margin: 0% 15% 0% 10%;
 }
 
 a {
@@ -289,9 +290,15 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding-left: 35%;
     padding-right: 35%;
     
+}
+.footer-copyright  > img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 .khanh-icon {
     display: flex;
@@ -310,6 +317,7 @@ a {
 
 .khanh-footer-text {
     font-family: 'Karla';
+    line-height: 2.5;
 }
 
 .khanh-footer-text a {
@@ -324,4 +332,4 @@ a {
 .khanh-social-network {
     background-color: rgb(239, 253, 253);
     color: var(--darkblue)
-}
+} 

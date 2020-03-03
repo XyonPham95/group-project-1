@@ -2,114 +2,120 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viet Vaca</title>
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Signika:700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Karla"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viet Vaca</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Signika:700&display=swap&subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Karla" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- navbar Binh start-->
-    <nav class="navbar navbar-light bg-light navbar-expand-lg"> 
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="aboutus.html">About Us <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Help <span class="sr-only">(current)</span></a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-                <button type="button" class="btn btn-primary btn-md">Sign In</button>
-                <button type="button" class="btn btn-secondary btn-md">Sign Up</button>
-            </span>
-        </div>
-    </nav> 
-  
-    <div class="b-search-area">
-        <div class="b-search-bar">
-            <div class="title">
-                <h1>Find Your Dream Viet Vacation</h1>
+  <!-- navbar Binh start-->
+  <nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="aboutus.html">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Help <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        <button type="button" class="btn btn-primary btn-md">Sign In</button>
+        <button type="button" class="btn btn-secondary btn-md">Sign Up</button>
+      </span>
+    </div>
+  </nav>
+
+  <div class="b-search-area">
+    <div class="b-search-bar">
+      <div class="title">
+        <h1>Find Your Dream Viet Vacation</h1>
+      </div>
+      <div class="card-deck">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <label for="arrive">Arrive</label>
+              <input type="date" id="arrive" name="arrive" class="input-day">
+            </div> <!-- Div col 1-->
+            <div class="col">
+              <label for="depart">Depart</label>
+              <input type="date" id="depart" name="depart" class="input-day">
+            </div> <!-- Div col 2-->
+            <div class="col">
+              <label for="daystart">Guest</label>
+              <select class="custom-select">
+                <option selected>Number of people</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="3">4 People</option>
+                <option value="3">5 People</option>
+                <option value="3">6 People</option>
+                <option value="3">7 People</option>
+                <option value="3">8 People</option>
+                <option value="3">9 People</option>
+                <option value="3">10 People</option>
+                <option value="3">11 People</option>
+                <option value="3">12 People</option>
+                <option value="3">13 People</option>
+                <option value="3">14 People</option>
+                <option value="3">15 People</option>
+                <option value="3">16 People</option>
+                <option value="3">17 People</option>
+              </select>
+            </div> <!-- Div col 3-->
+          </div> <!-- Div row 1-->
+          <div class="row">
+            <div class="col-12">
+              <div class="input-group mb-3 mt-3 input-group-100px">
+                <input type="text" class="form-control" placeholder="Search Location"
+                  aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <div class="input-group-prepend pl-3">
+                  <button class="btn btn-danger btn-outline-secondary " type="button" id="button-addon1">Search</button>
+                </div>
+              </div>
             </div>
-            <div class="card-deck">
-              <div class="container">
-                <div class="row">
-                  <div class="col">
-                    <label for="arrive">Arrive</label>
-                    <input type="date" id="arrive" name="arrive" class="input-day">
-                  </div> <!-- Div col 1-->
-                  <div class="col">
-                    <label for="depart">Depart</label>
-                    <input type="date" id="depart" name="depart" class="input-day">
-                  </div> <!-- Div col 2-->
-                  <div class="col">
-                    <label for="daystart">Guest</label>
-                    <select class="custom-select">
-                      <option selected>Number of people</option>
-                      <option value="1">1 Person</option>
-                      <option value="2">2 People</option>
-                      <option value="3">3 People</option>
-                      <option value="3">4 People</option>
-                      <option value="3">5 People</option>
-                      <option value="3">6 People</option>
-                      <option value="3">7 People</option>
-                      <option value="3">8 People</option>
-                      <option value="3">9 People</option>
-                      <option value="3">10 People</option>
-                      <option value="3">11 People</option>
-                      <option value="3">12 People</option>
-                      <option value="3">13 People</option>
-                      <option value="3">14 People</option>
-                      <option value="3">15 People</option>
-                      <option value="3">16 People</option>
-                      <option value="3">17 People</option>
-                    </select>
-                  </div> <!-- Div col 3-->
-                </div> <!-- Div row 1-->
-                <div class="row">
-                  <div class="col-12">
-                    <div class="input-group mb-3 mt-3 input-group-100px">
-                      <input type="text" class="form-control" placeholder="Search Location" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                      <div class="input-group-prepend pl-3">
-                        <button class="btn btn-danger btn-outline-secondary " type="button" id="button-addon1">Search</button>
-                      </div>
-                    </div>
-                  </div>
-                </div> <!-- Div row 2-->
-              </div> <!-- Div class container-->
-            </div> <!-- Div class card deck-->
-        </div> <!-- Div search bar-->
-    </div>     <!-- Div search area--> 
+          </div> <!-- Div row 2-->
+        </div> <!-- Div class container-->
+      </div> <!-- Div class card deck-->
+    </div> <!-- Div search bar-->
+  </div> <!-- Div search area-->
 
-    <!-- Navbar Binh end-->
+  <!-- Navbar Binh end-->
 
 
-    <!-- Nguyen content start-->
+  <!-- Nguyen content start-->
 
-    <div class="b-content">
-    <section class="general-info">   
+  <div class="b-content">
+    <section class="general-info">
       <div class="jumbotron jumbotron-fluid general-page">
         <div class="container">
-        <h1 class="display-4">Hello, Vietnam!</h1>
-        <p class="nguyen-paragraph">From north to south, Vietnam offers scenic Halong Bay, vibrant city tempo in Hanoi, unparalleled leisure in Hoi An, imperial Hue, colonial Ho Chi Minh City and vivid Mekong Delta. From the intoxicating history and culture, stunning natural beauty, enjoyable beach holiday to an interesting fisherman experience, this hottest destination in Southeast Asia just has something for everyone.
-        </p>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <h1 class="display-4">Hello, Vietnam!</h1>
+          <p class="nguyen-paragraph">From north to south, Vietnam offers scenic Halong Bay, vibrant city tempo in
+            Hanoi, unparalleled leisure in Hoi An, imperial Hue, colonial Ho Chi Minh City and vivid Mekong Delta. From
+            the intoxicating history and culture, stunning natural beauty, enjoyable beach holiday to an interesting
+            fisherman experience, this hottest destination in Southeast Asia just has something for everyone.
+          </p>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="img/about-1.jpg" alt="First slide">
@@ -130,153 +136,175 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-      </div>
+        </div>
     </section>
   </div>
 
-    <!--Nguyen content end-->
+  <!--Nguyen content end-->
 
-  <section class="north section-north"> <!--Bao-->
+  <section class="north section-north">
+    <!--Bao-->
     <a href="north.html" class="jumbotron north-jumbotron">
       <div class="main-north title-bar-north">
         <h1 class="display-4">Northern Viet Nam</h1>
         <p class="lead">The fullfil of Viet Nam history and contain a World's Heritage.</p>
       </div>
     </a>
-    
-    
-      <div class="card-deck bao-card-deck"> <!--Bao-->
-          <div class="card bao-card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters gg">
-              <div class="col-md-4">
-                <img src="img/north_landscape.jpg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body ">
-                  <h5 class="card-title">Landscape</h5>
-                  <p class="card-text">Northen Viet Nam include Ha Noi is the Capital of Viet Nam a great city with lots of historic abstract. There is also Sapa have cold weather and romantic sightseen. The best is Ha Long Bay the World Heritage.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card bao-card mb-3 ml-2" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4 gg">
-                <img src="img/north_food.jpeg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Food and Bevarges</h5>
-                  <p class="card-text">Vietnamese traditional food is the main attraction that make visitor want to visit the North of Viet Nam. They intend to enjoy of pure flavour and most of their dish have light taste.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
 
-      <div class="card-deck bao-card-deck"> <!--Bao-->
-        <div class="card bao-card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 gg">
-              <img src="img/north_art.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Art and Entertaiment</h5>
-                <p class="card-text">Hanoi has long had a reputation as Vietnam’s art capital, with the elegant Fine Arts Museum housing the country’s foremost collection, including ancient Cham artifacts and impressionist pieces. </p>
-              </div>
+
+    <div class="card-deck bao-card-deck">
+      <!--Bao-->
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters gg">
+          <div class="col-md-4">
+            <img src="img/north_landscape.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body ">
+              <h5 class="card-title">Landscape</h5>
+              <p class="card-text">Northen Viet Nam include Ha Noi is the Capital of Viet Nam a great city with lots of
+                historic abstract. There is also Sapa have cold weather and romantic sightseen. The best is Ha Long Bay
+                the World Heritage.</p>
             </div>
           </div>
         </div>
-        <div class="card bao-card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 gg">
-              <img src="img/north_souvenir.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Souvenir</h5>
-                <p class="card-text">Nothern place is a place fullfil with history and traditional. Buying a sourvanir in the Nothern VietNam are various like: Art "Tranh đông hồ", Bat Trang Ceramic, Silk. Papergoods is a good choice.</p>
-              </div>
+      </div>
+      <div class="card bao-card mb-3 ml-2" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/north_food.jpeg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Food and Bevarges</h5>
+              <p class="card-text">Vietnamese traditional food is the main attraction that make visitor want to visit
+                the North of Viet Nam. They intend to enjoy of pure flavour and most of their dish have light taste.</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="card-deck bao-card-deck">
+      <!--Bao-->
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/north_art.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Art and Entertaiment</h5>
+              <p class="card-text">Hanoi has long had a reputation as Vietnam’s art capital, with the elegant Fine Arts
+                Museum housing the country’s foremost collection, including ancient Cham artifacts and impressionist
+                pieces. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/north_souvenir.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Souvenir</h5>
+              <p class="card-text">Nothern place is a place fullfil with history and traditional. Buying a sourvanir in
+                the Nothern VietNam are various like: Art "Tranh đông hồ", Bat Trang Ceramic, Silk. Papergoods is a good
+                choice.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </section>
 
-  <section class="north section-middle"> <!--Bao-->
+  <section class="north section-middle">
+    <!--Bao-->
     <a href="middle.html" class="jumbotron middle-jumbotron">
       <div class="main-north title-bar-middle">
         <h1 class="display-4">Central Viet Nam</h1>
         <p class="lead">The traditional kingdom among the beachside</p>
       </div>
     </a>
-    
-    
-      <div class="card-deck bao-card-deck"> <!--Bao-->
-          <div class="card bao-card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4 gg">
-                <img src="img/middle_landscape.jpg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body ">
-                  <h5 class="card-title">Landscape</h5>
-                  <p class="card-text"> In fact, Vietnam is home to various landscapes that can be divided into four general categories: river deltas, the central highlands, the central coastline, and the mountainous northern region. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card bao-card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4 gg">
-                <img src="img/middle_food.jpg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title"> Food and Bevarges</h5>
-                  <p class="card-text">The central of Vietnam is the area with extreme climate and barren. Therefore, the ingredients such as meat and vegetable are not really diversified. People in Central Vietnam prefer salty and spicy dishes.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
 
-      <div class="card-deck bao-card-deck"> <!--Bao-->
-        <div class="card bao-card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 gg">
-              <img src="img/middle_art.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Art and Entertaiment</h5>
-                <p class="card-text">Vietnamese traditional music was born very early. Ever since ancient times, Vietnamese people have been very passionate about music and considered music as an integral part of their life</p>
-              </div>
+
+    <div class="card-deck bao-card-deck">
+      <!--Bao-->
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/middle_landscape.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body ">
+              <h5 class="card-title">Landscape</h5>
+              <p class="card-text"> In fact, Vietnam is home to various landscapes that can be divided into four general
+                categories: river deltas, the central highlands, the central coastline, and the mountainous northern
+                region. </p>
             </div>
           </div>
         </div>
-        <div class="card bao-card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 gg">
-              <img src="img/middle_souvenir.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Souvenir</h5>
-                <p class="card-text">We know that your loved ones don't need another keychain or magnet so here's a list of souvenirs that are affordable, unique, and an awesome reminder of your travels if you decorate your home or office.</p>
-              </div>
+      </div>
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/middle_food.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> Food and Bevarges</h5>
+              <p class="card-text">The central of Vietnam is the area with extreme climate and barren. Therefore, the
+                ingredients such as meat and vegetable are not really diversified. People in Central Vietnam prefer
+                salty and spicy dishes.</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="card-deck bao-card-deck">
+      <!--Bao-->
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/middle_art.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Art and Entertaiment</h5>
+              <p class="card-text">Vietnamese traditional music was born very early. Ever since ancient times,
+                Vietnamese people have been very passionate about music and considered music as an integral part of
+                their life</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/middle_souvenir.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Souvenir</h5>
+              <p class="card-text">We know that your loved ones don't need another keychain or magnet so here's a list
+                of souvenirs that are affordable, unique, and an awesome reminder of your travels if you decorate your
+                home or office.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </section>
 
-  
 
-  <section class="north section-south"> <!--Bao-->
+
+  <section class="north section-south">
+    <!--Bao-->
     <a href="south.html" class="jumbotron south-jumbotron">
       <div class="main-north title-bar-south">
         <h1 class="display-4">Southern Viet Nam</h1>
@@ -284,84 +312,89 @@
       </div>
     </a>
 
-      <div class="card-deck bao-card-deck"> <!--Bao-->
-          <div class="card bao-card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4 gg">
-                <img src="img/south_landscape.jpg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body ">
-                  <h5 class="card-title">Landscapes</h5>
-                  <p class="card-text"> Locally known as The River of the Nine Dragons, the 15,000 square-metre delta is home to several riverside villages, verdant forests, swamps, and rice plantations. </p>
-                </div>
-              </div>
+    <div class="card-deck bao-card-deck">
+      <!--Bao-->
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/south_landscape.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body ">
+              <h5 class="card-title">Landscapes</h5>
+              <p class="card-text"> Locally known as The River of the Nine Dragons, the 15,000 square-metre delta is
+                home to several riverside villages, verdant forests, swamps, and rice plantations. </p>
             </div>
           </div>
-          <div class="card bao-card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-              <div class="col-md-4 gg">
-                <img src="img/south_food.jpg" class="card-img" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Food and Bevarges</h5>
-                  <p class="card-text">Food is known to be both healthy and robust in flavour, thanks its generous combination of fresh herbs and greens, paired with rice, noodles, seafood and pork.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
       </div>
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/south_food.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Food and Bevarges</h5>
+              <p class="card-text">Food is known to be both healthy and robust in flavour, thanks its generous
+                combination of fresh herbs and greens, paired with rice, noodles, seafood and pork.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <div class="card-deck bao-card-deck"> <!--Bao-->
-        <div class="card bao-card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 gg">
-              <img src="img/south_art.jpg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Art and Entertaiment</h5>
-                <p class="card-text">The Southern folk song (often called Đờn Ca Tài Tử) is a kind of musical art featuring both scholarly and folk roots, which flourished in Sothern Vietnam in the late 19th century.</p>
-              </div>
+    <div class="card-deck bao-card-deck">
+      <!--Bao-->
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/south_art.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Art and Entertaiment</h5>
+              <p class="card-text">The Southern folk song (often called Đờn Ca Tài Tử) is a kind of musical art
+                featuring both scholarly and folk roots, which flourished in Sothern Vietnam in the late 19th century.
+              </p>
             </div>
           </div>
         </div>
-        <div class="card bao-card mb-3" style="max-width: 540px;">
-          <div class="row no-gutters">
-            <div class="col-md-4 gg">
-              <img src="img/south_souvenir.jpeg" class="card-img" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Souvenir</h5>
-                <p class="card-text">HReferred as a leaf hat or “non la”, this is a symbol of Vietnam, which is over 3000 years old. Ao dai is the national outfit also make to upscale the beauty of peole who where it.  </p>
-              </div>
+      </div>
+      <div class="card bao-card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 gg">
+            <img src="img/south_souvenir.jpeg" class="card-img" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Souvenir</h5>
+              <p class="card-text">HReferred as a leaf hat or “non la”, this is a symbol of Vietnam, which is over 3000
+                years old. Ao dai is the national outfit also make to upscale the beauty of peole who where it. </p>
             </div>
           </div>
         </div>
+      </div>
     </div>
 
   </section>
-    <!-- khanh Footer -->
+
   <footer class="page-footer unique-color-dark">
-    
-    <div class="container text-center text-md-left mt-5 khanh-footer-container">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">PARTNER</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p class="khanh-footer-text">
-            <a href="#"> Booking.com</a> <br>
-            <a href="#"> Priceline</a> <br>
-            <a href="#"> Agoda</a><br>
-            <a href="#"> Kayak</a>
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">DESTINATIONS</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <div  class="khanh-footer-text">
+    <div class="row container text-center khanh-footer-container">
+      <div class=" col-sm-12 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <h6 class="text-uppercase font-weight-bold">PARTNER</h6>
+        <hr class="deep-purple accent-2" style="width: 60px;">
+        <p class="khanh-footer-text">
+          <a href="#"> Booking.com</a> <br>
+          <a href="#"> Priceline.com</a> <br>
+          <a href="#"> Agoda.com</a><br>
+          <a href="#"> Kayak.com</a>
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <h6 class="text-uppercase font-weight-bold">DESTINATIONS</h6>
+        <hr class="deep-purple accent-2" style="width: 60px;">
+        <div class="khanh-footer-text">
           <p>
             <a href="#!">North of Viet Nam</a>
           </p>
@@ -375,11 +408,11 @@
             <a href="#!">Other places</a>
           </p>
         </div>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <div class="khanh-footer-text">
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2" style="width: 60px;">
+        <div class="khanh-footer-text">
           <p class="khanh-footer-text">
             <a href="#!">Transport in Viet Nam</a>
           </p>
@@ -393,14 +426,14 @@
             <a href="#!">Sitemap</a>
           </p>
         </div>
-        </div>
+      </div>
 
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
 
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <div class="khanh-footer-text">
-            <p>
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2" style="width: 60px;">
+        <div class="khanh-footer-text">
+          <p>
             <i class="fa fa-home mr-3"></i> 12 Ton Dan, District 4</p>
           <p>
             <i class="fa fa-envelope mr-3"></i> info@bbkn.com</p>
@@ -409,52 +442,65 @@
           <p>
             <i class="fa fa-print mr-3"></i> + 84 938 456 789</p>
         </div>
-        </div>
+      </div>
+    </div>
+    
 
+      <div class="footer-copyright text-center ">
+        <img src="img/agoda_logo.png" />
+        <img src="img/priceline_logo.png" />
+        <img src="img/kayak_logo.png" />
+        <a> BBKNTeam</a>
       </div>
 
-    </div>
+      <div class="khanh-social-network">
+        <div class="container" style="width: 60%;">
 
-    <div class="footer-copyright text-center  py-3">
-      <img src="img/agoda_logo.png" />
-      <img src="img/priceline_logo.png" />
-      <img src="img/kayak_logo.png" />
-      <a> BBKN Team</a>
-    </div>
-    <div class="khanh-social-network">
-      <div class="container" style="width: 60%;">
+          <div class="row py-4 d-flex align-items-center">
 
-        <div class="row py-4 d-flex align-items-center">
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0">Get connected with us on social networks!</h6>
+            </div>
 
-          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Get connected with us on social networks!</h6>
-          </div>
+            <div class="khanh-icon col-md-6 col-lg-7 text-center text-md-right">
 
-          <div class="khanh-icon col-md-6 col-lg-7 text-center text-md-right">
-
-            <a class="fb-ic">
-              <i class="fa fa-facebook-f white-text mr-4"> </i>
-            </a>
-            <a class="tw-ic">
-              <i class="fa fa-twitter white-text mr-4"> </i>
-            </a>
-            <a class="ins-ic">
-              <i class="fa fa-instagram white-text"> </i>
-            </a>
+              <a class="fb-ic">
+                <i class="fa fa-facebook-f white-text mr-4"> </i>
+              </a>
+              <a class="tw-ic">
+                <i class="fa fa-twitter white-text mr-4"> </i>
+              </a>
+              <a class="ins-ic">
+                <i class="fa fa-instagram white-text"> </i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <!-- Khanh footer -->
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
